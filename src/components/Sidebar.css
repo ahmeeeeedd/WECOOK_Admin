@@ -1,0 +1,36 @@
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #6e6e6eb3;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.menu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    background-color: #555;
+  }
+}
