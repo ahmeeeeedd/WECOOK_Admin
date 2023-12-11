@@ -31,9 +31,6 @@ const Sidebar = () => {
         <Link to="/Recettes" className="menu-item">
           Recettes proposées
         </Link>
-        <Link to="/Stock" className="menu-item">
-          Stock
-        </Link>
         <Link to="/Avis" className="menu-item">
           Avis client
         </Link>
@@ -42,9 +39,6 @@ const Sidebar = () => {
         </Link>
         <Link to="/Fournisseurs" className="menu-item">
           Fournisseurs
-        </Link>
-        <Link to="/Supplément" className="menu-item">
-          Suppléments
         </Link>
         <Link to="/Paramétres" className="menu-item">
           Paramètres Compte

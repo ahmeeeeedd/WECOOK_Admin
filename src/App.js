@@ -9,10 +9,8 @@ import Cuisine from "./pages/Cuisine";
 import Sécurité from "./pages/Sécurité";
 import Factures from "./pages/Factures";
 import Recettes from "./pages/Recettes";
-import Stock from "./pages/Stock";
 import Avis from "./pages/Avis";
 import Boissons from "./pages/Boissons";
-import Suppléments from "./pages/Suppléments";
 import Paramétres from "./pages/Paramétres";
 import Home from "./pages/Home";
 import Fournisseurs from "./pages/Fournisseurs";
@@ -23,19 +21,17 @@ const App = () => {
         <Sidebar />
         <div className="content">
           <Routes>
-            <Route path="/Home" component={Home} />
-            <Route path="/Plat" component={Plat} />
-            <Route path="/Serveur" component={Serveur} />
-            <Route path="/Cuisine" component={Cuisine} />
-            <Route path="/Sécurité" component={Sécurité} />
-            <Route path="/Factures" component={Factures} />
-            <Route path="/Recettes" component={Recettes} />
-            <Route path="/Stock" component={Stock} />
-            <Route path="/Avis" component={Avis} />
-            <Route path="/Boissons" component={Boissons} />
-            <Route path="/Fournisseurs" component={Fournisseurs} />
-            <Route path="/Suppléments" component={Suppléments} />
-            <Route path="/Paramétres" component={Paramétres} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/Plat" element={<Plat />} />
+            <Route path="/Serveur" element={<Serveur />} />
+            <Route path="/Cuisine" element={<Cuisine />} />
+            <Route path="/Sécurité" element={<Sécurité />} />
+            <Route path="/Factures" element={<Factures />} />
+            <Route path="/Recettes" element={<Recettes />} />
+            <Route path="/Avis" element={<Avis />} />
+            <Route path="/Boissons" element={<Boissons />} />
+            <Route path="/Fournisseurs" element={<Fournisseurs />} />
+            <Route path="/Paramétres" element={<Paramétres />} />
           </Routes>
         </div>
       </div>

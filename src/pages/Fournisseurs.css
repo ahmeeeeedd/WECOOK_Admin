@@ -1,0 +1,51 @@
+.fournisseurs-page {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #ffd084;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffbc2b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffbc2b6c;
+  color: rgb(255, 255, 255);
+}

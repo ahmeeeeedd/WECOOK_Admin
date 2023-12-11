@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-//import "./Fournisseurs.css"; // Assurez-vous d'importer votre fichier de style
-
+import "./Fournisseurs.css";
 const Fournisseurs = () => {
   const [formData, setFormData] = useState({
     nom: "",
